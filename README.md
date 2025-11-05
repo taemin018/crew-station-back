@@ -1,0 +1,209 @@
+# 🚀 Crew Station
+
+> 본 서비스는 여행자들이 연결되는 소셜 여행 플랫폼
+> 여행 동행 모집, 지역 상품 판매, 여행 일기 작성을 한 곳에서 제공합니다.
+> 여행자 간 교류와 거래가 이루어지는 통합 여행 플랫폼입니다.
+> 함께 여행하고, 사고팔고, 기록하는 새로운 여행 경험을 만듭니다.
+
+---
+
+## 🎯 기획 의도
+
+<img width="893" height="491" alt="Image" src="https://github.com/user-attachments/assets/62bbc22b-547c-4f73-9385-987955c1642c" />
+
+<img width="892" height="497" alt="Image" src="https://github.com/user-attachments/assets/2e785061-087a-4c09-8021-0be51391ba9b" />
+
+본 프로젝트는 청년층의 **사회적 고립 문제**와 **연대 부족**을 해결하고자 기획되었습니다.
+
+주요 기획 배경은 다음과 같습니다:
+
+1. **사회적 고립 완화**  
+   청년들이 혼자 경험하는 여행이나 활동에서 **새로운 인간관계를 형성할 기회가 부족**하다는 문제를 발견했습니다.
+
+2. **경제적 제약 완화**  
+   청년들이 해외여행 등 다양한 경험을 하고 싶어도 **비용 부담으로 기회가 제한**되는 현실을 확인했습니다.
+
+3. **안전하고 책임 있는 만남 필요**  
+   기존의 여행 동행 방식에서는 **안전성과 신뢰성 부족**으로 범죄나 사고 위험이 존재한다는 점이 문제였습니다.
+
+이에 따라, **안전한 플랫폼을 통해 청년들이 여행을 함께하고, 사회적 연결망을 확장할 수 있는 서비스**를 기획하게 되었습니다.
+
+---
+
+## 💡 기대 효과
+
+<img width="1395" height="736" alt="Image" src="https://github.com/user-attachments/assets/66048866-0050-4afd-952b-4d2286b807b0" />
+
+1. **경제적 부담 완화와 기회 형평성 제고**
+
+    - 우리 서비스의 **크루원 모집 기능**을 통해 여행이나 활동 비용을 분담할 수 있어,  
+      경제적 제약이 있는 청년도 다양한 경험을 누릴 수 있습니다.
+
+2. **창업적 감각 함양**
+
+    - 사용자가 해외에서 구한 상품을 **기프트에 올려 사고팔기**를 경험함으로써  
+      소규모 비즈니스 운영 및 거래 경험을 쌓을 수 있습니다.
+
+3. **콘텐츠 기반 성장**
+
+    - **여행 다이어리 기록 공유**를 통해 개인 경험을 기록하고,  
+      다른 사용자와 소통하며 **콘텐츠 기반의 성장 및 학습**이 가능합니다.
+
+4. **심리적 안정감 제공**
+    - 크루와 함께 활동하며 **역할을 수행하고 협력**함으로써  
+      정서적 지지와 **심리적 안정감**을 얻을 수 있습니다.
+
+---
+
+## 🧰 프로젝트 사용 툴
+
+-   **HTML Engine:** Thymeleaf
+-   **Frontend:** Html, JavaScript, CSS
+-   **Backend:** Spring Boot, Java
+-   **Database:** PostgreSQL, Redis
+-   **Infra:** AWS EC2, AWS IAM, AWS S3
+-   **Tool:** VsCode, IntelliJ IDEA
+-   **API:** Kakao Login, Kakao Map, Kakao 주소, SMTP Gmail API,REST API, Lombok, MyBatis, OAuth 2.0, Google Login, Boot Pay, Naver Login, JWT, Spring Security, CoolSMS, Swagger UI
+-   **기타:** Git, GitHub, Slack, Postman, Sourcetree
+-   **테스트:** JUnit5
+
+---
+
+## 🗂 ERD (Entity Relationship Diagram)
+
+<img width="6222" height="6184" alt="Image" src="https://github.com/user-attachments/assets/6e275336-0946-4425-aae2-ccca73d4c320" />
+
+
+
+## 👩‍💻 담당 업무
+
+<img width="1629" height="327" alt="스크린샷 2025-11-03 오전 1 48 56" src="https://github.com/user-attachments/assets/d6812492-2581-46c3-8cd1-a8dac0e0a936" />
+
+
+<br>▶ 메인페이지
+
+-   메인 목록
+-   헤더 (모바일, 웹)
+-   푸터 (모바일, 웹)
+-   알림
+
+▶ 전체검색
+
+- 통합검색
+
+▶ 관리자
+
+- 로그인
+- 관리자 등록
+- 관리자 메인
+- 회원관리
+- 회원관리 상세
+- 크루동행 신고 목록
+- 크루동행 신고 상세
+- 공지사항 목록
+- 공지사항 상세
+- 공지사항 작성
+- 배너관리
+- 문의 목록
+- 문의 상세/답변
+- 결제관리
+- 결제관리 상세
+
+
+<br>
+
+## 📊 QA 테스트
+
+<img width="836" height="718" alt="스크린샷 2025-11-03 오전 1 32 43" src="https://github.com/user-attachments/assets/cdbc9612-701e-44bf-ae8f-78e851b76e43" />
+
+
+
+## 🚨 오류 상황들
+
+💥문제 상황
+
+Caused by: java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local3>" is null
+    at org.mybatis.spring.MyBatisSystemException:
+    ### Error querying database.
+    Cause: java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local3>" is null
+    ### The error may exist in com/example/crewstation/mapper/member/MemberMapper.xml
+    ### The error may involve com.example.crewstation.mapper.member.MemberMapper.findAdminMembers
+    ### Cause: java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local3>" is null
+
+
+
+
+🔍 문제 원인
+
+- DB에 저장된 member_gender 컬럼 값이 빈문자열('') 이라서 Enum(Gender) 매핑 과정에서 Enum.valueOf("")로 들어가서 목록이 안불러와지는 문제 발생
+- DB값이 enum 정의에 없는 문자열이라서 NullPointerException이 발생
+
+🛠️ 해결 방안
+
+- 관리자 회원가입 시 gender가 비어 있을 경우 기본값을 넣도록 수정
+<img width="1013" height="504" alt="스크린샷 2025-11-03 오후 7 38 14" src="https://github.com/user-attachments/assets/b95e8a39-73fd-4a43-a8df-843b690679d1" />
+
+
+💥문제 상황
+
+<img width="820" height="442" alt="스크린샷 2025-09-30 오후 11 43 05" src="https://github.com/user-attachments/assets/9b48432f-48ff-4b22-b93d-def2d90670ae" />
+
+
+🔍 문제 원인
+- AWS S3의 presigned URL이 Redis에 캐시된 상태에서 만료되었다.
+- Redis가 만료된 URL을 계속 반환하면서 브라우저가 ORB 정책으로 요청을 차단
+- 브라우저 보안 정책(CORS/ORB) 에 의해 이미지가 차단되는 현상이 발생
+
+
+🛠️ 해결 방안
+
+<img width="840" height="448" alt="스크린샷 2025-11-03 오후 8 12 07" src="https://github.com/user-attachments/assets/65352975-077b-4332-884f-9a9b10301abd" />
+
+
+- redis-cli FLUSHALL 명령어로 캐시를 초기화한 뒤, presigned URL을 발급하자 정상적으로 이미지가 표시되었음
+- 동일한 문제가 반복되지 않도록, 캐시 로직을 제거하고 presigned URL을 매번 새로 발급하도록 코드 수정
+
+
+## 🧭 총평
+
+< 기획 >
+
+ 1차 프로젝트에 비해 기획에 더 많은 시간을 투자했고, 그 과정에서 화면 간 페이지 이동 흐름, 데이터베이스 구조, 서비스 로직, 예외 상황 처리까지 세밀하게 설계했습니다.
+ 덕분에 실제 개발 단계에서 혼선 없이 안정적으로 마무리할 수 있었습니다.
+ 기획을 하면서 단순한 기능 나열이 아닌 사용자 흐름 중심으로 구조적으로 기획을 하는 것이 얼마나 중요한지 직접 체감할 수 있었습니다.
+ 구조화된 기획을 바탕으로 개발을 진행하면서 협업 효율이 높아졌고, 전체적인 작업 방향이 명확해졌습니다.
+ 이 프로젝트를 하면서 기획이 얼마나 큰 비중을 가지고 있는지 알게되었습니다.
+
+< 협업 >
+
+ Spring Security, JWT 등 새로운 기술을 적용하는 과정에서 URL 접근 제어 및 토큰 처리 로직 등 핵심 보안 설정을 공유하는 데 어려움이 있었습니다.
+ 이를 계기로 중요한 변경사항은 짧은 회의라도 즉시 공유하고, Slack이나 Notion을 통한 기록화 체계를 강화해야 한다는 필요성을 느꼈습니다.
+ 기술적인 완성도도 중요하지만, 팀 내 커뮤니케이션의 속도와 정확성이 개발 효율에 큰 영향을 준다는 점을 깨달았습니다.
+
+< 좋았던 점 >
+
+ 1차 프로젝트보다 많은 기술을 실제로 적용해 볼 수 있어서 실무에 대한 경험을 쌓을 수 있었습니다.
+ AWS S3, IAM, Redis, Spring Security, JWT 등 다양한 기술을 다뤄보면서 백엔드 전반에 대한 감을 잡을 수 있었고,
+ 서버 배포를 먼저 진행한 뒤 CI/CD 자동화 구축을 하면서, 자동화 환경의 효율성과 필요성을 확실히 느꼈습니다.
+
+< 아쉬웠던 점 > 
+
+ 이번 프로젝트를 하면서 아쉬웠던 부분은 시간 관리가 미흡했습니다.
+ 특정 기능에 너무 몰두하면서, 전체적인 일정 조율이나 우선순위를 놓치는 경우가 있었습니다.
+ 결과적으로 맞은 부분은 잘 구현을 했지만, 전반적으로 개발 속도와 전반적인 일정 관리 측면에서는 아쉬움이 남았습니다.
+ 다음 프로젝트에서는 일정과 완성도, 코드 구조의 균형을 더 잘 잡고 진행 속도 관리 능력을 키우는 것을 목표로 하고 있습니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
